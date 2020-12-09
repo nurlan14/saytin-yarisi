@@ -1,0 +1,222 @@
+.our-story{
+    background-image: url(../image/home_three_about_bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+    padding: 100px 0 107px 0;
+    position: relative;
+    .for-triangles{
+        background-image: url(../image/tri-promo-bottom-white.png);
+        background-repeat: repeat;
+        height: 6px;
+        width: 100%;
+        position: absolute;
+        top: 101%;
+        transform: translateY(-94%);
+        z-index: 55;
+    }
+    .our-story-text{
+        padding: 0 0 60px 0;
+        h2{
+            font-size: 80px;
+            color: #ca3d26;
+            display: inline-block;
+            font-family: "Dancing Script", cursive;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+    }
+    .our-story-mid-texts{
+        p{
+            font-family: "Lato", sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            letter-spacing: 0.3px;
+            line-height: 1.7em;
+            span{
+                font-family: "Lato", sans-serif;
+                float: left;
+                color: #4a4d4f;
+                font-size: 80px;
+                font-weight: 700;
+                margin-bottom: -4px;
+                margin-right: 10px;
+                line-height: 1;
+            }
+        }
+    }
+    .sign{
+        padding: 40px 0 0 0;
+    }
+}
+.pizza-section{
+    position: relative;
+    background-image: url(../image/promotions_area_bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    .for-triangles{
+        background-image: url(../image/tri-promo-bottom-white.png);
+        background-repeat: repeat;
+        /* background-position-y: bottom; */
+        transform: scaleY(-1);
+        transform: rotateX(180deg);
+        height: 6px;
+        width: 100%;
+        position: absolute;
+        top: 99%;
+        /* transform: translateY(-99%); */
+        z-index: 56;
+    }
+    .over-text{
+        padding: 40px 0 0;
+        h2{
+            color: #ca3d26;
+            font-family: "Dancing Script", cursive;
+            font-size: 60px;
+            letter-spacing: 2px;
+            line-height: 0.8;
+            font-weight: 700;
+        }
+    }
+    .under-design{
+        padding: 15px 15px 55px 15px;
+    }
+    .image-pizza{
+        img{
+            max-height: 450px;
+            width: 70%;
+        }
+    }
+    .img-over{
+        position: relative;
+    }
+    .image-description{
+        background-color: white;
+        width: 40%;
+        max-height: 350px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 50px;
+        h3{
+            font-size: 30px;
+            padding: 0 0 15px;
+            font-family: "PT Sans Narrow", sans-serif;
+            font-weight: 700;
+        }
+        p{
+            font-family: "Lato", sans-serif;
+        }
+        .btn{
+            padding: 50px 0;
+            a{
+                border: 1px solid;
+                color: #ca3d26;
+                font-size: 14px;
+                font-weight: 700;
+                letter-spacing: 2px;
+                padding: 7px 23px;
+                font-family: "Lato", sans-serif;
+            }
+        }
+    }
+}
+.menu-section{ 
+    .title-text{
+        padding: 0 0 20px 0;
+        h2{
+            font-size: 60px;
+            color: #ca3d26;
+            display: inline-block;
+            font-family: "Dancing Script", cursive;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+    }
+    .under-design{
+        padding: 0 0 60px 0;
+    }
+    .types-dish{
+        .over-ul{
+            .over-li{
+                position: relative;
+                transition: .5s;
+            }
+            .over-li:hover .inner-ul{
+                display: block;
+            }
+            li{
+                border: 1px solid;
+                border-color: #1e1e1f;
+                padding: 3px 10px;
+                margin: 0 2px;
+                a{
+                    text-decoration: none;
+                    color: #1e1e1f;
+                }
+                .inner-ul{
+                    background-color: #ca3d26;
+                    // color: blanchedalmond;
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    width: 150px;
+                    display: none;
+                    transition: .5s;
+                    z-index: 150;
+                    li{
+                        border: none;
+                        padding: 3px 10px;
+                        transition: .5s;
+                        a{
+                            color: white;
+                            display: block;
+                        }
+                    }
+                    li:hover{
+                        background-color: cornflowerblue;
+                    }
+                }
+            }
+        }
+    }
+    .menu-items-over{
+        .menu-item-over-in{
+            .underline-menu{
+                border-bottom: 1px solid black;
+                padding: 0 0 30px 0;
+                .image-over{
+                    position: relative;
+                    .image{
+                        border-radius: 50%;
+                        height: 100px;
+                        width: 100px;
+                        overflow: hidden;
+                        box-shadow: 0 0 0 10px #ddd;
+                        img{
+                                // transform: translate(-15px, -15px);
+                        }
+                    }
+                }
+                .text{
+                    padding: 0px 30px;
+                    h3{
+                        // padding: 0 0 45px 0;
+                    }
+                    p{
+                        color: #555555;
+                        font-family: "Lato", sans-serif;
+                        font-size: 15px;
+                        font-weight: 400;
+                        letter-spacing: 0.3px;
+                        line-height: 1.7em;
+                    }
+                }
+            }
+            
+            
+        }
+    }
+}
